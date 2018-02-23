@@ -14,6 +14,8 @@
 		8FE74E82203FE9AB00C215FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE74E80203FE9AB00C215FA /* LaunchScreen.storyboard */; };
 		8FE74E8D203FE9AB00C215FA /* Project39Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE74E8C203FE9AB00C215FA /* Project39Tests.swift */; };
 		8FE74E98203FE9AB00C215FA /* Project39UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE74E97203FE9AB00C215FA /* Project39UITests.swift */; };
+		8FE74EA6203FE9C600C215FA /* plays.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8FE74EA5203FE9C600C215FA /* plays.txt */; };
+		8FE74EAA203FECBC00C215FA /* PlayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE74EA9203FECBC00C215FA /* PlayData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8FE74E93203FE9AB00C215FA /* Project39UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project39UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FE74E97203FE9AB00C215FA /* Project39UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project39UITests.swift; sourceTree = "<group>"; };
 		8FE74E99203FE9AB00C215FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FE74EA5203FE9C600C215FA /* plays.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = plays.txt; path = "../../../Downloads/HackingWithSwift-master/project39-files/plays.txt"; sourceTree = "<group>"; };
+		8FE74EA9203FECBC00C215FA /* PlayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				8FE74E77203FE9AA00C215FA /* AppDelegate.swift */,
+				8FE74EA9203FECBC00C215FA /* PlayData.swift */,
 				8FE74E79203FE9AB00C215FA /* ViewController.swift */,
 				8FE74E7B203FE9AB00C215FA /* Main.storyboard */,
 				8FE74E7E203FE9AB00C215FA /* Assets.xcassets */,
 				8FE74E80203FE9AB00C215FA /* LaunchScreen.storyboard */,
 				8FE74E83203FE9AB00C215FA /* Info.plist */,
+				8FE74EA5203FE9C600C215FA /* plays.txt */,
 			);
 			path = Project39;
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FE74EA6203FE9C600C215FA /* plays.txt in Resources */,
 				8FE74E82203FE9AB00C215FA /* LaunchScreen.storyboard in Resources */,
 				8FE74E7F203FE9AB00C215FA /* Assets.xcassets in Resources */,
 				8FE74E7D203FE9AB00C215FA /* Main.storyboard in Resources */,
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FE74EAA203FECBC00C215FA /* PlayData.swift in Sources */,
 				8FE74E7A203FE9AB00C215FA /* ViewController.swift in Sources */,
 				8FE74E78203FE9AA00C215FA /* AppDelegate.swift in Sources */,
 			);
